@@ -1,6 +1,12 @@
+import { MainContent } from "./MainContent/MainContent/MainContent";
+import { Title } from "./Title/Title";
+
 export const App = () => {
   return (
-    <div>
-    </div>
+    <>
+    {/* <PasswordGenerator/> */}
+      <Title/>
+      <MainContent/>
+    </>
   );
 };
